@@ -20,7 +20,7 @@ spec:
         servicefor: category
     spec:
       containers:
-      - image: mihaitatinta/category:distributed
+      - image: mihaitatinta/category:distributed-no-discovery
         imagePullPolicy: Always
         name: category
         ports:
